@@ -12,7 +12,7 @@
   { "type": "git"
   , "url": "git://github.com/dokipen/parseurl.js"
   }
-, "bugs": { "web": "http://github.com/dokipen/parseurl.js/issues/" }
+, "bugs": { "url": "http://github.com/dokipen/parseurl.js/issues/" }
 , "directories": { "lib": "./lib" }
 , "dependencies": {"hashish": ">= 0.0.4"}
 , "main": "./lib/urlparse.js"
