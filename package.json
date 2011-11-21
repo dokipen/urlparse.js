@@ -1,0 +1,19 @@
+{ "name": "urlparse.js"
+, "version": "0.0.1"
+, "description": "Flexible node.js url.parse replacement. Parsed URLs like a browser would and fills in the missing pieces"
+, "homepage": "https://github.com/dokipen/urlparse.js"
+, "keywords": ["url", "parse"]
+, "author":
+  { "name": "Bob Corsaro"
+  , "email": "rcorsaro@gmail.com"
+  , "url": "http://www.google.com/profiles/rcorsaro"
+  }
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/dokipen/parseurl.js"
+  }
+, "bugs": { "web": "http://github.com/dokipen/parseurl.js/issues/" }
+, "directories": { "lib": "./lib" }
+, "dependencies": {"hashish": ">= 0.0.4"}
+, "main": "./lib/urlparse.js"
+}
