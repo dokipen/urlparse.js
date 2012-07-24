@@ -1,6 +1,6 @@
 {
   "name": "urlparse.js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Flexible node.js url.parse replacement. Parsed URLs like a browser would and fills in the missing pieces",
   "homepage": "https://github.com/dokipen/urlparse.js",
   "keywords": [
