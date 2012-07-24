@@ -1,19 +1,30 @@
-{ "name": "urlparse.js"
-, "version": "0.0.5"
-, "description": "Flexible node.js url.parse replacement. Parsed URLs like a browser would and fills in the missing pieces"
-, "homepage": "https://github.com/dokipen/urlparse.js"
-, "keywords": ["url", "parse"]
-, "author":
-  { "name": "Bob Corsaro"
-  , "email": "rcorsaro@gmail.com"
-  , "url": "http://www.google.com/profiles/rcorsaro"
+{
+  "name": "urlparse.js",
+  "version": "0.0.6",
+  "description": "Flexible node.js url.parse replacement. Parsed URLs like a browser would and fills in the missing pieces",
+  "homepage": "https://github.com/dokipen/urlparse.js",
+  "keywords": [
+    "url",
+    "parse"
+  ],
+  "author": "Bob Corsaro <rcorsaro@gmail.com> (http://www.google.com/profiles/rcorsaro)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dokipen/parseurl.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dokipen/parseurl.js/issues/"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "hashish": ">= 0.0.4"
+  },
+  "main": "./lib/urlparse.js",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
   }
-, "repository":
-  { "type": "git"
-  , "url": "git://github.com/dokipen/parseurl.js"
-  }
-, "bugs": { "url": "http://github.com/dokipen/parseurl.js/issues/" }
-, "directories": { "lib": "./lib" }
-, "dependencies": {"hashish": ">= 0.0.4"}
-, "main": "./lib/urlparse.js"
 }
